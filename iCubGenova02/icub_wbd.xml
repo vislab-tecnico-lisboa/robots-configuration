@@ -37,10 +37,10 @@
     <xi:include href="hardware/motorControl/left_leg-eb7-j4_5-mc.xml" />
     <xi:include href="wrappers/motorControl/left_leg-mc_wrapper.xml" /> 
 
-    <!-- RIGHT LEG --> <!--
+    <!-- RIGHT LEG -->
     <xi:include href="hardware/motorControl/right_leg-eb8-j0_3-mc.xml" />
     <xi:include href="hardware/motorControl/right_leg-eb9-j4_5-mc.xml" />
-    <xi:include href="wrappers/motorControl/right_leg-mc_wrapper.xml" /> -->
+    <xi:include href="wrappers/motorControl/right_leg-mc_wrapper.xml" />
     
 
     <!-- INERTIAL SENSOR--> 
@@ -90,7 +90,7 @@
     <xi:include href="calibrators/left_arm-calib.xml" />
     <xi:include href="calibrators/right_arm-calib.xml" /> 
     <xi:include href="calibrators/left_leg-calib.xml" />
-    <!-- <xi:include href="calibrators/right_leg-calib.xml" /> -->
+    <xi:include href="calibrators/right_leg-calib.xml" />
     <xi:include href="calibrators/torso-calib.xml" />
     <xi:include href="calibrators/head-calib.xml" />
     <!-- <xi:include href="calibrators/face-calib.xml" /> -->
