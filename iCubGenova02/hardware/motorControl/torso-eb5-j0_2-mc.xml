@@ -90,7 +90,7 @@
     <group name="IMPEDANCE">
         <param name="stiffness">       0      0      0    </param>    
         <param name="damping">         0      0      0    </param>    
-</group>
+    </group>
 
     <group name="2FOC_CUR_CONTROL">
         <param name="controlLaw">       limitscurrent          </param>
@@ -107,6 +107,10 @@
         <param name="cur_stictionDwn">      0            0          0        </param>
         <param name="cur_kff">              0            0          0        </param>        
    </group>
+   
+    <group name="OTHER_CONTROL_PARAMETERS">
+        <param name="deadZone">  0.0495 0.0495 0.0495 </param>
+    </group>
     
   </device>
 
