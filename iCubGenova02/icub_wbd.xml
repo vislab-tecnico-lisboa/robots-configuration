@@ -52,7 +52,7 @@
     <xi:include href="hardware/MAIS/left_arm-eb2-j4_15-mais.xml" /> 
     <xi:include href="hardware/MAIS/right_arm-eb4-j4_15-mais.xml" />  
     
-    <!--  SKINS  
+    <!--  SKINS -->
     <xi:include href="wrappers/skin/left_arm-skin_wrapper.xml" />
     <xi:include href="hardware/skin/left_arm-eb2-j4_15-skin.xml" />
     <xi:include href="wrappers/skin/right_arm-skin_wrapper.xml" />  
@@ -60,12 +60,12 @@
     <xi:include href="wrappers/skin/left_leg-skin_wrapper.xml" />
     <xi:include href="wrappers/skin/right_leg-skin_wrapper.xml" />
     <xi:include href="hardware/skin/left_leg-eb10-skin.xml" />
-    <xi:include href="hardware/skin/right_leg-eb11-skin.xml" />-->
+    <xi:include href="hardware/skin/right_leg-eb11-skin.xml" />
     <!-- Skin torso is never tested"
     <xi:include href="wrappers/skin/torso-skin_wrapper.xml" />
     <xi:include href="hardware/skin/torso-eb22-skin.xml" />
     -->
-    <!-- ANALOG SENSOR FT 
+    <!-- ANALOG SENSOR FT -->
     <xi:include href="wrappers/FT/left_arm-FT_wrapper.xml" /> 
     <xi:include href="wrappers/FT/right_arm-FT_wrapper.xml" />
     <xi:include href="wrappers/FT/right_leg-FT_wrapper.xml" /> 
@@ -77,14 +77,14 @@
     <xi:include href="hardware/FT/left_leg-eb6-j0_3-strain.xml" /> 
     <xi:include href="hardware/FT/left_leg-eb7-j4_5-strain.xml" />
     <xi:include href="hardware/FT/right_leg-eb8-j0_3-strain.xml" /> 
-    <xi:include href="hardware/FT/right_leg-eb9-j4_5-strain.xml" />-->
+    <xi:include href="hardware/FT/right_leg-eb9-j4_5-strain.xml" />
     
-    <!-- VIRTUAL ANALOG SENSORS (WRAPPER ONLY) 
+    <!-- VIRTUAL ANALOG SENSORS (WRAPPER ONLY) -->
     <xi:include href="wrappers/VFT/left_arm-VFT_wrapper.xml" /> 
     <xi:include href="wrappers/VFT/right_leg-VFT_wrapper.xml" /> 
     <xi:include href="wrappers/VFT/left_leg-VFT_wrapper.xml" />     
     <xi:include href="wrappers/VFT/right_arm-VFT_wrapper.xml" /> 
-    <xi:include href="wrappers/VFT/torso-VFT_wrapper.xml" />-->
+    <xi:include href="wrappers/VFT/torso-VFT_wrapper.xml" />
     
     <!--  CALIBRATORS -->
     <xi:include href="calibrators/left_arm-calib.xml" />
@@ -95,12 +95,12 @@
     <xi:include href="calibrators/head-calib.xml" />
     <!-- <xi:include href="calibrators/face-calib.xml" /> -->
    
-    <!-- CARTESIANS 
+    <!-- CARTESIANS -->
     <xi:include href="cartesian/left_arm-cartesian.xml" />
-    <xi:include href="cartesian/right_arm-cartesian.xml" /> --> 
+    <xi:include href="cartesian/right_arm-cartesian.xml" />
     
-    <!-- ESTIMATORS 
-    <xi:include href="estimators/wholebodydynamics_yoga.xml" />-->
+    <!-- ESTIMATORS -->
+    <xi:include href="estimators/wholebodydynamics_yoga.xml" />
     
     <!-- ROS-based publisher -->
     <xi:include href="wrappers/motorControl/icub_ros_wrapper.xml" />
