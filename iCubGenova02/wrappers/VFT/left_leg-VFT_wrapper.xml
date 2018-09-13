@@ -13,7 +13,7 @@
             </paramlist>
 
         <param name="channels">       6                 </param>
-        <param name="name"> /icub/joint_vsens/left_leg:i </param>
+        <param name="name"> /icub02/joint_vsens/left_leg:i </param>
 
         <action phase="startup" level="5" type="attach">
             <paramlist name="networks">
