@@ -4,7 +4,7 @@
 <devices robot="iCubGenova04" build="1">
     <device name="left_arm-inertials_wrapper" type="multipleanalogsensorsserver">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/left_arm/inertials                </param>
+        <param name="name">     /icub04/left_arm/inertials                </param>
 
         <action phase="startup" level="5" type="attach">
             <paramlist name="networks">

@@ -4,7 +4,7 @@
 <devices robot="iCubGenova04" build="1">
     <device name="torso-eb22-inertials_wrapper" type="analogServer">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/torso/inertialMTB                </param>
+        <param name="name">     /icub04/torso/inertialMTB                </param>
 
 
         <action phase="startup" level="5" type="attach">
@@ -19,7 +19,7 @@
 
     <device name="torso-eb1-inertials_wrapper" type="analogServer">
         <param name="period">       10                              </param>
-        <param name="name">         /icub/torso/inertialEMS1        </param>
+        <param name="name">         /icub04/torso/inertialEMS1        </param>
 
 
         <action phase="startup" level="5" type="attach">
@@ -34,7 +34,7 @@
 
     <device name="torso-eb3-inertials_wrapper" type="analogServer">
         <param name="period">       10                              </param>
-        <param name="name">         /icub/torso/inertialEMS3        </param>
+        <param name="name">         /icub04/torso/inertialEMS3        </param>
 
 
         <action phase="startup" level="5" type="attach">

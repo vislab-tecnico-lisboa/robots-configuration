@@ -4,7 +4,7 @@
 <devices robot="iCubGenova04" build="1">
     <device name="left_leg-eb10-inertials_wrapper" type="analogServer">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/left_leg/inertialMTB                </param>
+        <param name="name">     /icub04/left_leg/inertialMTB                </param>
 
 
         <action phase="startup" level="5" type="attach">
@@ -21,7 +21,7 @@
 
     <device name="left_leg-eb6-inertials_wrapper" type="analogServer">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/left_leg/inertialEMS6                </param>
+        <param name="name">     /icub04/left_leg/inertialEMS6                </param>
 
 
         <action phase="startup" level="5" type="attach">
@@ -38,7 +38,7 @@
 
     <device name="left_leg-eb7-inertials_wrapper" type="analogServer">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/left_leg/inertialEMS7                </param>
+        <param name="name">     /icub04/left_leg/inertialEMS7                </param>
 
 
         <action phase="startup" level="5" type="attach">

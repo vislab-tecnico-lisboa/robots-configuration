@@ -3,7 +3,7 @@
 
 <devices robot="iCubGenova04" build="1">
  <device name="xsens_inertial" type="inertial">
-      <param name="name">  /icub/xsens_inertial  </param>
+      <param name="name">  /icub04/xsens_inertial  </param>
       <param name="subdevice">  xsensmt  </param>
       <param name="serial">  /dev/ttyXsens   </param>
 </device>

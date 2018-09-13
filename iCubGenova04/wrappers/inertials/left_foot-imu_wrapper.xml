@@ -4,7 +4,7 @@
 <devices robot="iCubGenova04" build="1">
     <device name="left_foot-imu_wrapper" type="multipleanalogsensorsserver">
         <param name="period">       10                  </param>
-        <param name="name">     /icub/left_foot/imu                </param>
+        <param name="name">     /icub04/left_foot/imu                </param>
 
 
         <action phase="startup" level="5" type="attach">

@@ -11,7 +11,7 @@
             </paramlist>
 
         <param name="channels">       3                 </param>
-        <param name="name"> /icub/joint_vsens/torso:i </param>
+        <param name="name"> /icub04/joint_vsens/torso:i </param>
 
         <action phase="startup" level="5" type="attach">
             <paramlist name="networks">
