@@ -4,7 +4,7 @@
 
     <device xmlns:xi="http://www.w3.org/2001/XInclude" name="waist-eb5-inertials_wrapper" type="analogServer">
         <param name="period">       10                              </param>
-        <param name="name">         /icub/waist/inertialEMS5        </param>
+        <param name="name">         /icub04/waist/inertialEMS5        </param>
 
 
         <action phase="startup" level="5" type="attach">
