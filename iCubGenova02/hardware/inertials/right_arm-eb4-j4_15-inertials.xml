@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE devices PUBLIC "-//YARP//DTD robotInterface 1.0//EN" "http://www.icub.org/DTD/robotInterfaceV1.0.dtd">
+<!DOCTYPE devices PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
-<devices robot="iCubGenova02" build="1">
+
    
-    <device name="right_arm-eb4-j4_15-inertials" type="embObjInertials">
+    <device xmlns:xi="http://www.w3.org/2001/XInclude" name="right_arm-eb4-j4_15-inertials" type="embObjInertials">
     
-        <params file="general.xml" />     
+        <xi:include href="../../general.xml" />     
 
-        <params file="hardware/electronics/right_arm-eb4-j4_15-eln.xml" />
+        <xi:include href="../../hardware/electronics/right_arm-eb4-j4_15-eln.xml" />
         
         <group name="SERVICE">
         
@@ -40,7 +40,7 @@
                                             eoas_accel_mtb_int      eoas_accel_mtb_int      eoas_accel_mtb_int      eoas_gyros_mtb_ext        
                     </param>
 
-                    <param name="location"> ETH:0                   ETH:0                     
+                    <param name="location"> ETH:0                   ETH:1                     
                                             CAN2:8                  CAN2:9                  CAN2:10                 CAN2:11              
                                             CAN2:12                 CAN2:13                 CAN2:14                 CAN2:14
                     </param>            
@@ -57,5 +57,5 @@
         
     </device>
     
-</devices>
+
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE params PUBLIC "-//YARP//DTD robotInterface 1.0//EN" "http://www.icub.org/DTD/robotInterfaceV1.0.dtd">
+<!DOCTYPE params PUBLIC "-//YARP//DTD yarprobotinterface 3.0//EN" "http://www.yarp.it/DTD/yarprobotinterfaceV3.0.dtd">
 
-<params robot="myrobot" build="1">
+<params xmlns:xi="http://www.w3.org/2001/XInclude" robot="myrobot" build="1">
     <group name="GENERAL">
         <param name="MotioncontrolVersion">  Version of motor control device.  Currently is 3.</param>
         <param name="Joints">           Number of joints manged from this device. Usually is the number of joints controlled by Ethernet board.       </param> 
@@ -20,8 +20,8 @@
 
     
     <group name="LIMITS">       
-        <param name="hardwareJntPosMin">         Max hardware position of joint [expressed in degrees]. Due to mechanical constraints                     </param>  
-        <param name="hardwareJntPosMax">         Min hardware position of joint [expressed in degrees].  Due to mechanical constraints                    </param>
+        <param name="hardwareJntPosMin">         Max hardware position of joint [expressed in degrees]. Due to mechanical constraints. See https://wiki.icub.org/wiki/ICub_joints_limits for more details </param>  
+        <param name="hardwareJntPosMax">         Min hardware position of joint [expressed in degrees]. Due to mechanical constraints. See https://wiki.icub.org/wiki/ICub_joints_limits for more details </param>
         <param name="rotorPosMin">               Min position of rotor [expressed in degrees].  NOTE: if both limits of rotor have value 0, then no check of rotor limits is performed.   </param> 
         <param name="rotorPosMax">               Max position of rotor [expressed in degrees].  NOTE: if both limits of rotor have value 0, then no check of rotor limits is performed.   </param>
     </group>

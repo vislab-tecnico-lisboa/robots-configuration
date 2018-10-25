@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<robot name="icub">
-
+<robot name="icub" xmlns:xi="http://www.w3.org/2001/XInclude">
+<devices>
     <!-- laser -->
-    <devices file="./transform_server.xml" /> 
+    <xi:include href="./transform_server.xml" /> 
     
+</devices>
 </robot> 
 
