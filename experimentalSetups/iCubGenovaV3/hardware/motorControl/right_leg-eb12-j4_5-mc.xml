@@ -12,12 +12,12 @@
       <xi:include href="./right_leg-eb12-j4_5-mc_service.xml" />
 
     <group name="LIMITS">
-        <param name="jntPosMax">                      40            20     </param>
-        <param name="jntPosMin">                     -40           -20     </param>
+        <param name="jntPosMax">                      35            23     </param>
+        <param name="jntPosMin">                     -35           -23     </param>
+        <param name="jntVelMax">                      45            45     </param>
         <param name="motorNominalCurrents">         5000          5000     </param>
         <param name="motorPeakCurrents">           10000         10000     </param>
         <param name="motorOverloadCurrents">       15000         15000     </param>
-        <param name="jntVelMax">                    1000          1000     </param>
         <param name="motorPwmLimit">               10000         10000     </param>    
     </group>
 	
@@ -88,6 +88,10 @@
         <param name="cur_stictionUp">       0            0          </param>       
         <param name="cur_stictionDwn">      0            0          </param>   
         <param name="cur_kff">              0            0          </param>  
+    </group>
+
+    <group name="OTHER_CONTROL_PARAMETERS">
+        <param name="deadZone"> 0.0049 0.0049 </param>
     </group>
     
   </device>

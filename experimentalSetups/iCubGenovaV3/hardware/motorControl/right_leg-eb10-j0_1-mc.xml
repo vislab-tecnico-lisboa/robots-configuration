@@ -13,12 +13,12 @@
 
     <group name="LIMITS">
         <!--                                    0             	1          -->
-        <param name="jntPosMax">               125           111     </param>
-        <param name="jntPosMin">              -45           5       </param>
+        <param name="jntPosMax">               110            110       </param>
+        <param name="jntPosMin">               -40             -8       </param>
+        <param name="jntVelMax">                45             45       </param> 
         <param name="motorNominalCurrents">  5000          5000         </param>
 	<param name="motorPeakCurrents">     10000         10000      </param>
         <param name="motorOverloadCurrents"> 15000         15000         </param>
-        <param name="jntVelMax">                1000         1000       </param>  
         <param name="motorPwmLimit">           10000        10000      </param>    
     </group>
 
@@ -90,6 +90,10 @@
         <param name="cur_stictionUp">       0            0     </param>       
         <param name="cur_stictionDwn">      0            0     </param>   
         <param name="cur_kff">              0            0     </param>            
+    </group>
+
+    <group name="OTHER_CONTROL_PARAMETERS">
+        <param name="deadZone"> 0.0049 0.0049 </param>
     </group>
     
   </device>
