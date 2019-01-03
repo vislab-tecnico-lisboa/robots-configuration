@@ -57,7 +57,7 @@
     </group>
 
     <group name="JOINTSET_CFG"> 
-        <param name= "numberofsets"> 2 </param>
+        <param name= "numberofsets"> 1 </param>
         <group name="JOINTSET_0">
             <param name="listofjoints">  0             </param>
             <param name="constraint">    none          </param>
@@ -65,12 +65,7 @@
             <param name="param2">        0             </param>
         </group> 
         
-        <group name="JOINTSET_1">
-            <param name="listofjoints">  1             </param>
-            <param name="constraint">    none          </param>
-            <param name="param1">        0             </param>
-            <param name="param2">        0             </param>
-        </group> 
+       
         
     </group>
     
